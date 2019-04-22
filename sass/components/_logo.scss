@@ -1,0 +1,12 @@
+.logo {
+  opacity: .3;
+  height: 6.5rem;
+
+  @include respond(tablet) {
+    height: 8rem;
+  }
+
+  @include respond(desktop) {
+    height: 11.2rem;
+  }
+}
